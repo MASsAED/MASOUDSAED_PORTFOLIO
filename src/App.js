@@ -1,19 +1,25 @@
-import React from "react";
-import {HiMenuAlt3} from "react-icons/hi";
+import logo from './logo.svg';
+import './App.css';
 
-const Home = () => {
-    return (
-        <section className="flex gap-6">
-            <div className="bg-[#0e0e0e] min-h-screen w-72">
-              <div className="py-3 flex-justify-end">
-                <HiMenuAlt3 size={26} className="cursor-pointer"/>
-              </div>
-            </div>
-            <div className="m-3 text-xl text-gray-900 font-semibold">
-                REACT TAILWIND
-            </div>
-        </section>
-    );
-};
+function App() {
+  return (
+    <div className="App">
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
+    </div>
+  );
+}
 
-export default Home;
+export default App;
