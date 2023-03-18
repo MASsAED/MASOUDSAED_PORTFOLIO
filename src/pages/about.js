@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 const About = () => {
   return (
@@ -6,7 +6,7 @@ const About = () => {
         style={{
         display: 'flex', 
         justifyContent:'center', 
-        alignitems:'center', 
+        alignItems:'center', 
         height: '90vh' 
         }}
     >

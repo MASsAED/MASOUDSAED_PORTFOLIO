@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 const Home = () => {
   return (
@@ -6,7 +6,7 @@ const Home = () => {
         style={{
         display: 'flex', 
         justifyContent:'center', 
-        alignitems:'center', 
+        alignItems:'center', 
         height: '90vh' 
         }}
     >
