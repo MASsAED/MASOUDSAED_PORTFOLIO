@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Services = () => {
+const Sign = () => {
   return (
     <div 
         style={{
@@ -10,9 +10,9 @@ const Services = () => {
         height: '90vh' 
         }}
     >
-      <h1>Services</h1>
+      <h1>Sign Up</h1>
     </div>
   );
 };
 
-export default Services;
+export default Sign;
