@@ -1,27 +1,31 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Nav, NavLink, Bars, NavMenu, NavBtn, NavBtnLink } from './NavbarElements';
+// import styled from 'styled-components';
 
 
 const Navbar = () => {
+
   return (
     <>
       <Nav>
         <NavLink to="/">
-        <h1>Logo</h1>
+          <div>
+            <img src={"./images/logo.png"} alt="logo" className="logo" />
+          </div>
         </NavLink>
         <Bars />
-        <NavMenu>
+        <NavMenu >
           <NavLink to='/about' activeStyle>
             About
           </NavLink>
-          <NavLink to='/services' activeStyle>
-            Services
+          <NavLink to='/projects' activeStyle>
+            Projects
           </NavLink>
-          <NavLink to='/contact-us' activeStyle>
-            Contact Us
+          <NavLink to='/education' activeStyle>
+            Education
           </NavLink>
-          <NavLink to='/sign-up' activeStyle>
-            Sign Up
+          <NavLink to='/contact' activeStyle>
+            Contact
           </NavLink>
         </NavMenu>
         <NavBtn>

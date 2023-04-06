@@ -3,21 +3,27 @@ import "./App.css";
 import Navbar from "./components/Navbar";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/index";
-import About from "./pages/about";
-import Services from "./pages/services";
-import Contact from "./pages/contact-us";
-import Sign from "./pages/sign-up";
+import About from "./pages/About";
+import Contact from "./pages/Contact";
+import Education from "./pages/Education";
+import Projects from "./pages/Projects";
+import { Nav, NavBtnLink, NavLink, NavMenu } from "./components/Navbar/NavbarElements";
+import { Bars } from "./components/Navbar/NavbarElements";
+
+
+
 
 function App() {
+    
   return (
     <Router>
       <Navbar />
-      <Routes>
+      <Routes >
         <Route path="/" exact element={<Home />} />
         <Route path="/about" element={<About />} />
-        <Route path="/services" element={<Services />} />
-        <Route path="/contact-us" element={<Contact />} />
-        <Route path="/sign-up" element={<Sign />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/education" element={<Education />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
     </Router>
   );

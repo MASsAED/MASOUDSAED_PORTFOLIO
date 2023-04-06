@@ -3,8 +3,8 @@ import { NavLink as Link } from 'react-router-dom';
 import { FaBars } from 'react-icons/fa';
 
 export const Nav = styled.nav`
-background: #000;
-height: 80px;
+background: #041375;
+height: 60px;
 display: flex;
 justify-content: space-between;
 padding: 0.5rem calc((100vw - 1000px) / 2);
@@ -37,6 +37,7 @@ color: #fff;
     transform: translate(-100%, 75%);
     font-size: 1.8rem;
     cursor: pointer;
+    
 }
 `;
 
@@ -44,7 +45,6 @@ export const NavMenu = styled.div`
 display: flex;
 align-items: center;
 margin-right: -24;
-
 @media screen and (max-width: 768px) {
     display: none;
 }
