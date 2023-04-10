@@ -5,7 +5,7 @@ import { SiAffinitydesigner }from 'react-icons/si'
 
 const Education = () => {
   return (
-
+<>
     <section className="education-wrapper ">
       <div className="container-xxl ">
         <div className="row py-5">
@@ -79,6 +79,19 @@ const Education = () => {
         </div>
       </div>
     </section>
+    <section className="footer">
+        <div className="row">
+          <div className="col contact  ">
+            <address className="mb-0">
+              ADDRESS: 10 Maud Avenue, Bestoon Leeds, LS11 7DN.
+            </address>
+            <a className="mail">EMAIL: masoudsaed918@gmail.com</a>
+            <a className="tel">TEL: 07546035152</a>
+          </div>
+        </div>
+      </section>
+    </>
+    
   );
 };
 

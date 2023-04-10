@@ -1,0 +1,52 @@
+.navbar {
+background-color: blue;
+}
+.button-navbar {
+margin-left: 120px;
+/* margin-top: 9px; */
+}
+.logo {
+margin-left: 27px;
+}
+.nav-link {
+            color: white;
+            font-weight: 600;
+            margin-left: 30px;
+            
+        }
+        .nav {
+            margin-left: 80px;
+           
+        }
+
+@media only screen and (max-width: 768px ){
+
+    .nav-link {
+        color: white;
+        font-weight: 500;
+        width: 50%;
+        border: 1px solid darkblue;
+        border-radius: 10%;
+    }
+    .nav-link .button-navbar{
+        text-align: center;
+        color: red;
+        width: 185px;
+        margin-left: 0px;
+    }
+
+    .nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 5px;
+        flex-wrap: wrap;
+        text-align: center;
+        margin-left: auto;
+
+    }
+}
+
+
+
