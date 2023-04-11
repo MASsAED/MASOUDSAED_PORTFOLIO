@@ -27,7 +27,7 @@ const Contact = () => {
         <div className="container-xxl">
           <div className="row">
             <div className="col-12">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d18851.757882808277!2d-1.5655178732429795!3d53.7989247248657!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48795c1e046c24a9%3A0x716fc89a6553a7e4!2sLeeds%20City%20Centre%2C%20Leeds!5e0!3m2!1sen!2suk!4v1680040558690!5m2!1sen!2suk" width="500" height="400" className="border-0 w-100" allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade">
+              <iframe title='map' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d18851.757882808277!2d-1.5655178732429795!3d53.7989247248657!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48795c1e046c24a9%3A0x716fc89a6553a7e4!2sLeeds%20City%20Centre%2C%20Leeds!5e0!3m2!1sen!2suk!4v1680040558690!5m2!1sen!2suk" width="500" height="400" className="border-0 w-100" allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade">
               </iframe>
             </div>
           </div>
@@ -93,8 +93,8 @@ const Contact = () => {
             <address className="mb-0">
               ADDRESS: 10 Maud Avenue, Bestoon Leeds, LS11 7DN.
             </address>
-            <a className="mail">EMAIL: masoudsaed918@gmail.com</a>
-            <a className="tel">TEL: 07546035152</a>
+            <a href="http://masoudsaed918@gmail.com" className="mail">EMAIL: masoudsaed918@gmail.com</a>
+            <a href="http://masoudsaed918@gmail.com" className="tel">TEL: 07546035152</a>
           </div>
         </div>
       </section>

@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Doughnut } from 'react-chartjs-2';
 import { CDBContainer } from 'cdbreact';
-import Chart from 'chart.js/auto';
 
 const Chartta = () => {
     const [data, setData] = useState({

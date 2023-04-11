@@ -85,8 +85,8 @@ const Education = () => {
             <address className="mb-0">
               ADDRESS: 10 Maud Avenue, Bestoon Leeds, LS11 7DN.
             </address>
-            <a className="mail">EMAIL: masoudsaed918@gmail.com</a>
-            <a className="tel">TEL: 07546035152</a>
+            <a href="http://masoudsaed918@gmail.com" className="mail">EMAIL: masoudsaed918@gmail.com</a>
+            <a href="http://masoudsaed918@gmail.com" className="tel">TEL: 07546035152</a>
           </div>
         </div>
       </section>

@@ -75,6 +75,11 @@ position: relative;
   justify-content: center;
   align-items: center;
 }
+.main-home-wrapper-2 .details{
+  display: none;
+  text-align: left;
+} 
+
 
 .main-home-wrapper h1,
 .main-home-wrapper h4 {
@@ -141,6 +146,7 @@ position: relative;
   border: 1px solid var(--color-041375);
   border-radius: 50%;
   /* object-fit: cover; */
+  cursor: pointer;
 
 }
 

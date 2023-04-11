@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { BsFillArrowDownCircleFill, BsGithub, BsInstagram, BsLinkedin, BsTelegram, BsTwitter } from 'react-icons/bs';
 import { AiOutlineMail } from 'react-icons/ai'
-import AlertDismissible from '../components/Alert';
 import Popup from '../components/Popup';
+import $ from 'jquery';
+import ReactDOM from 'react-dom';
 
 const Home= () => {
   const [buttonPopup, setButtonPopup] = useState(false);
@@ -34,7 +35,7 @@ const Home= () => {
                   <a href="https://twitter.com/MASOUDSAED89"><BsTwitter className="social-icon" /></a>
                   <a href="https://t.me/MASOUD_SAED89"><BsTelegram className="social-icon" /></a>
                   <a href="https://www.instagram.com/masoud_saed89/"><BsInstagram className="social-icon" /></a>
-                  <a href="#"><AiOutlineMail className="social-icon" /></a>
+                  <a href="https://masoudsaed918@gmail.com"><AiOutlineMail className="social-icon" /></a>
                 </div>
               </div>
             </div>
@@ -43,7 +44,13 @@ const Home= () => {
                 <div>
 
                 </div>
-                <img src={"./images/MASOUDSAED-2.jpg"} className="img-masoud" alt="masoud saed" />
+                  <img src={"./images/MASOUDSAED-2.jpg"} className="img-masoud" alt="masoud saed" />
+                <div className="details">
+                 <h6>MASOUD SAED</h6>
+                 <h6>AGE 33</h6>
+                 <h6>BACHLOR COMPUTER SOFTWARE</h6>
+                 <h6>I LOVE TO CODEING</h6>
+                </div>
               </div>
               <div className="home-popup main-home-wrapper-2 mt-3">
                 <button className="button" onClick={() => setButtonPopup(true)}>My Message</button>
@@ -63,8 +70,8 @@ const Home= () => {
             <address className="mb-0">
               ADDRESS: 10 Maud Avenue, Bestoon Leeds, LS11 7DN.
             </address>
-            <a className="mail">EMAIL: masoudsaed918@gmail.com</a>
-            <a className="tel">TEL: 07546035152</a>
+            <a href="http://masoudsaed918@gmail.com" className="mail">EMAIL: masoudsaed918@gmail.com</a>
+            <a href="http://masoudsaed918@gmail.com" className="tel">TEL: 07546035152</a>
           </div>
         </div>
       </section>
@@ -73,3 +80,8 @@ const Home= () => {
 };
 
 export default Home;
+
+$('.img-masoud').on('click',
+  () => {
+    $('.details').toggle();
+  });
