@@ -3,7 +3,6 @@ import { BsFillArrowDownCircleFill, BsGithub, BsInstagram, BsLinkedin, BsTelegra
 import { AiOutlineMail } from 'react-icons/ai'
 import Popup from '../components/Popup';
 import $ from 'jquery';
-import ReactDOM from 'react-dom';
 
 const Home= () => {
   const [buttonPopup, setButtonPopup] = useState(false);

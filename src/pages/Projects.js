@@ -1,5 +1,5 @@
 import React from 'react'
-import DarkVariantExample from '../components/carousel'
+// import DarkVariantExample from '../components/carousel'
 
 const Projects = () => {
   return (
@@ -32,7 +32,7 @@ const Projects = () => {
                   <h2>I like to craft solid and scalable frontend, backend products with user experiences!</h2>
                 </div>
                 
-                <DarkVariantExample />
+                {/* <DarkVariantExample /> */}
                 <div className="mt-5 text-center">
                   <h5>Few Project more then 60% Done!</h5>
                   <h6>Click on Project</h6>
