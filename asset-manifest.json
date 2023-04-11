@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/MASOUDSAED_PORTFOLIO/static/css/main.5da7b656.css",
-    "main.js": "/MASOUDSAED_PORTFOLIO/static/js/main.f912a3db.js",
+    "main.js": "/MASOUDSAED_PORTFOLIO/static/js/main.7e97276a.js",
     "static/js/787.2bd78fac.chunk.js": "/MASOUDSAED_PORTFOLIO/static/js/787.2bd78fac.chunk.js",
     "static/media/fa-solid-900.svg": "/MASOUDSAED_PORTFOLIO/static/media/fa-solid-900.7a8b4f130182d19a2d7c.svg",
     "static/media/fa-brands-400.svg": "/MASOUDSAED_PORTFOLIO/static/media/fa-brands-400.2f517e09eb2ca6650ff5.svg",
@@ -20,11 +20,11 @@
     "static/media/fa-regular-400.woff2": "/MASOUDSAED_PORTFOLIO/static/media/fa-regular-400.7a3337626410ca2f4071.woff2",
     "index.html": "/MASOUDSAED_PORTFOLIO/index.html",
     "main.5da7b656.css.map": "/MASOUDSAED_PORTFOLIO/static/css/main.5da7b656.css.map",
-    "main.f912a3db.js.map": "/MASOUDSAED_PORTFOLIO/static/js/main.f912a3db.js.map",
+    "main.7e97276a.js.map": "/MASOUDSAED_PORTFOLIO/static/js/main.7e97276a.js.map",
     "787.2bd78fac.chunk.js.map": "/MASOUDSAED_PORTFOLIO/static/js/787.2bd78fac.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5da7b656.css",
-    "static/js/main.f912a3db.js"
+    "static/js/main.7e97276a.js"
   ]
 }
