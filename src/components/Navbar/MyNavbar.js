@@ -10,7 +10,7 @@ const MyNavbar = () => {
         <img src={"./images/logo.png"} alt="logo" className="logo" />
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
-      <Navbar.Collapse id="basic-navbar-nav">
+      <Navbar.Collapse className="basic-navbar-nav mt-2">
         <Nav className="ml-auto nav">
           <Nav.Link className="nav-link" href="/">Home</Nav.Link>
           <Nav.Link className="nav-link" href="/about">About</Nav.Link>
@@ -18,7 +18,7 @@ const MyNavbar = () => {
           <Nav.Link className="nav-link" href="/education">Education</Nav.Link>
           <Nav.Link className="nav-link" href="/contact">Contact</Nav.Link>
           <Nav.Link className="nav-link" href="/my-skills">
-            <button href="/my-skills" className="button button-navbar">My Skills</button>
+            <button href="/my-skills" className="button button-navbar ">My Skills</button>
           </Nav.Link>
         </Nav>
       </Navbar.Collapse>

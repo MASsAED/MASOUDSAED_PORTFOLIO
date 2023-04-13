@@ -8,6 +8,8 @@ margin-left: 120px;
 .logo {
 margin-left: 27px;
 }
+
+
 .nav-link {
             color: white;
             font-weight: 600;
@@ -31,7 +33,7 @@ margin-left: 27px;
     .nav-link .button-navbar{
         text-align: center;
         color: red;
-        width: 185px;
+        width: 150px;
         margin-left: 0px;
     }
 
@@ -40,7 +42,7 @@ margin-left: 27px;
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        padding: 5px;
+        /* padding: 5px; */
         flex-wrap: wrap;
         text-align: center;
         margin-left: auto;

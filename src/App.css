@@ -474,7 +474,7 @@ border-top-right-radius: 1px solid var(--color-051DB5);
   background-color: var(--color-051DB5);
   color: white;
   font-size: 14px;
-  padding: 13px 33px;
+  padding: 8px 25px;
   border-radius: 15px;
   transition-duration: 0.5s;
 }
