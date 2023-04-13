@@ -1,5 +1,6 @@
-import React from 'react'
-// import DarkVariantExample from '../components/carousel'
+import React from 'react';
+import DarkVariantExample from '../components/carousel';
+// import $ from 'jquery';
 
 const Projects = () => {
   return (
@@ -31,8 +32,8 @@ const Projects = () => {
                 <div className="mt-5">
                   <h2>I like to craft solid and scalable frontend, backend products with user experiences!</h2>
                 </div>
-                
-                {/* <DarkVariantExample /> */}
+
+                <DarkVariantExample />
                 <div className="mt-5 text-center">
                   <h5>Few Project more then 60% Done!</h5>
                   <h6>Click on Project</h6>
@@ -71,8 +72,49 @@ const Projects = () => {
           </div>
         </div>
       </section>
+      <section>
+
+      </section>
     </>
   )
 }
 
 export default Projects
+
+// Define a function to handle the search
+// function searchPerson(name) {
+//   // Make an AJAX request to the search engine API
+//   $.ajax({
+//     url: `https://api.searchengine.com/search?q=${name}`,
+//     method: "GET",
+//     dataType: "json",
+//     success: function (data) {
+//       // This function will be called when the request succeeds
+//       // Extract the relevant information from the response
+//       const person = {
+//         name: data.results[0].name,
+//         age: data.results[0].age,
+//         occupation: data.results[0].occupation
+//       };
+
+//       // Display the information on the page
+//       $("#person-name").text(person.name);
+//       $("#person-age").text(person.age);
+//       $("#person-occupation").text(person.occupation);
+//     },
+//     error: function (xhr, status, error) {
+//       // This function will be called if the request fails
+//       console.error("Failed to load data:", error);
+//     }
+//   });
+// }
+
+// // Bind a click event to the search button
+// $("#search-button").click(function () {
+//   // Get the name from the search input
+//   const name = $("#search-input").val();
+
+//   // Call the search function with the name
+//   searchPerson(name);
+// });
+

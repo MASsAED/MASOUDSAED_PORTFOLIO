@@ -1,6 +1,6 @@
 import React from 'react';
 import ChartSkills from '../components/Chart';
-// import Chartta from '../components/Pchart';
+import Chartta from '../components/Pchart';
 
 const MySkills = () => {
   return (
@@ -40,7 +40,7 @@ const MySkills = () => {
             <div className="col-md chart mt-0">
               <div className="twochart">
               <ChartSkills />
-                {/* <Chartta /> */}
+                <Chartta />
               </div>
             </div>
           </div>

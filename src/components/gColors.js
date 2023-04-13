@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import $ from 'jquery';
+import './component.css';
 
 export function ColorChangingElement() {
     useEffect(() => {
@@ -13,7 +14,7 @@ export function ColorChangingElement() {
     return <div id="my-element">
         <h1 >Hi There,</h1>
         <h1>I'm Masoud Saed</h1>
-        <h4>I Am into Web Developl</h4>
+        <h4>I Am into Web Development!</h4>
     </div>;
 }
  

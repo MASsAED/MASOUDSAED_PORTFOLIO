@@ -5,7 +5,7 @@ import { CDBContainer } from 'cdbreact';
 const Chartta = () => {
     const [data, setData] = useState({
         labels: ['HTML', 'CSS', 'JAVASCRIPT', 'BOOTSTRAP', 'UI', 'PHP', 'PYTHON', 'REACT', 'GIT'],
-        
+
         datasets: [
             {
                 label: 'My Totall dataset',
@@ -52,8 +52,8 @@ const Chartta = () => {
             };
 
             setData(newState);
-        }, 100000);
-    }, []);
+        }, 1000);
+    }, [data]);
 
     return (
         <CDBContainer>

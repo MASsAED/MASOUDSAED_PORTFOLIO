@@ -1,4 +1,6 @@
 import React from 'react';
+import Tippy from '@tippyjs/react';
+import 'tippy.js/dist/tippy.css';
 
 const About = () => {
   return (
@@ -7,18 +9,22 @@ const About = () => {
         <div className="container-xxl">
           <div className="row">
             <div className="col-md ">
-              <div className="about-image-masoud py-5">
-                <img className="img-masoud" src={"../images/mas.jpg"} alt="masoud-saed" />
-              </div>
-              <div className="circle-title">
-                <h4 className="my-skill-circle-1">Responsive</h4>
-                <h4 className="my-skill-circle-2">DesignSkill</h4>
-                <h4 className="my-skill-circle-3">NPM</h4>
+              <div className="about-image-masoud py-1">
+                <div class="tippy-container">
+                  <Tippy content="Masoud saed/Age 33" className="tippy-1">
+                <img className="img-masoud mb-4" src={"../images/mas.jpg"} alt="masoud-saed" />
+                  </Tippy>
+                </div>
+                </div>
+              <div className="circle-title mt-5">
+                <h4 className="my-skill-circle">Responsive</h4>
+                <h4 className="my-skill-circle">DesignSkill</h4>
+                <h4 className="my-skill-circle">NPM</h4>
               </div>
               <div className="circle-title ">
-                <h4 className="my-skill-circle-3">FrontEnd</h4>
-                <h4 className="my-skill-circle-4">WebDesign</h4>
-                <h4 className="my-skill-circle-5">Backend</h4>
+                <h4 className="my-skill-circle">FrontEnd</h4>
+                <h4 className="my-skill-circle">WebDesign</h4>
+                <h4 className="my-skill-circle">Backend</h4>
               </div>
             </div>
             <div className="col-md">

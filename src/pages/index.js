@@ -2,9 +2,9 @@ import React, { useState, useEffect } from 'react';
 import { BsFillArrowDownCircleFill, BsGithub, BsInstagram, BsLinkedin, BsTelegram, BsTwitter } from 'react-icons/bs';
 import { AiOutlineMail } from 'react-icons/ai'
 import Popup from '../components/Popup';
-import $ from 'jquery';
 import { ColorChangingElement } from '../components/gColors';
-import { ImageWithTooltip } from '../components/ImageWithTooltip';
+import $ from 'jquery';
+
 
 const Home = () => {
   const [buttonPopup, setButtonPopup] = useState(false);
@@ -32,7 +32,7 @@ const Home = () => {
           <div className="row py-5">
             <div className="col-md ">
               <div trigger={colorFlow} setTrigger={setColorFlow} className="main-home-wrapper-1 greeting ">
-                <ColorChangingElement />
+                <ColorChangingElement  className="home-greeting"/>
                
                 <div className="main-home-button">
                   <button>About Me  <BsFillArrowDownCircleFill /></button>
@@ -52,10 +52,12 @@ const Home = () => {
                 <div>
 
                 </div>
-                <ImageWithTooltip />
+                
+                <img src="./images/MASOUDSAED-2.jpg" alt="masoud saed" className="img-masoud" />
+              
               </div>
               <div className="home-popup main-home-wrapper-2 mt-3">
-                <button className="button" onClick={() => setButtonPopup(true)}>My Message</button>
+                <button className="button " onClick={() => setButtonPopup(true)}>My Message</button>
                 <Popup trigger={buttonPopup} setTrigger={setButtonPopup}>
                   <p>this is my message</p>
                 </Popup>
@@ -69,11 +71,11 @@ const Home = () => {
       <section className="footer">
         <div className="row">
           <div className="col contact  ">
+            <a href="http://masoudsaed918@gmail.com" className="tel">Tel:(+44)754-603-5152</a>
+            <a href="http://masoudsaed918@gmail.com" className="mail">Email: masoudsaed918@gmail.com</a>
             <address className="mb-0">
-              ADDRESS: 10 Maud Avenue, Bestoon Leeds, LS11 7DN.
+              Address: 10 Maud Avenue, Beeston Leeds, LS11 7DN.
             </address>
-            <a href="http://masoudsaed918@gmail.com" className="mail">EMAIL: masoudsaed918@gmail.com</a>
-            <a href="http://masoudsaed918@gmail.com" className="tel">TEL: 07546035152</a>
           </div>
         </div>
       </section>
@@ -83,7 +85,4 @@ const Home = () => {
 
 export default Home;
 
-$('.img-masoud').on('click',
-  () => {
-    $('.details').toggle();
-  });
+
