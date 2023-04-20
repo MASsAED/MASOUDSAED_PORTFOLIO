@@ -34,8 +34,7 @@ const Projects = () => {
                 
                 <DarkVariantExample />
                 <div className="mt-5 text-center">
-                  <h5>Few Project more then 60% Done!</h5>
-                  <h6>Click on Project</h6>
+                  <h5>Few Project more then 70% Done!</h5>
                 </div>
               </div>
             </div>
