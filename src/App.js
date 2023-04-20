@@ -3,17 +3,18 @@ import "./App.css";
 import MyNavbar from "./components/Navbar/MyNavbar";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/index";
-import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Education from "./pages/Education";
 import Projects from "./pages/Projects";
 import MySkills from "./pages/MySkills";
+import About from "./pages/about";
 // import { Nav, NavBtnLink, NavLink, NavMenu } from "./components/Navbar/NavbarElements";
 
 
 
 
 function App() {
+  
     
   return (
     <Router>

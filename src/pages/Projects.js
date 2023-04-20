@@ -37,6 +37,11 @@ const Projects = () => {
                 <div className="mt-5 text-center">
                   <h5>Few Project more then 70% Done!</h5>
                 </div>
+                <div>
+                  <p className="mb-0"><a className="project-link" href="https://e-commerce-website-masoudsaed.netlify.app/">E-commerce</a></p>
+                  <p className="mb-0"><a className="project-link" href="https://socialmedia-platform-masoudsaed.netlify.app/">Social Media</a></p>
+                  <p className="mb-0"><a className="project-link" href="https://freedom-music.netlify.app/">PlayList-Spotify</a> </p>
+                </div>
               </div>
             </div>
             <div className="col-md project-qa">

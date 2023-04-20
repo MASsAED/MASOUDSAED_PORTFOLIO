@@ -8,36 +8,37 @@ function DarkVariantExample() {
     return (
         <Carousel variant="dark">
             <Carousel.Item>
-                <img
+                <a target="_blank" href="https://e-commerce-website-masoudsaed.netlify.app/">
+                    <img
                     className="d-block w-100 slide-img"
                     src={"./images/Ecomm.jpg"}
                     alt="Ecommerce Website"
-                />
+                    /></a> 
                 <Carousel.Caption className="carousel-caption">
-                    <h5>Ecommerce Platform </h5>
-                    {/* <p>Click To view</p> */}
+                    
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
-                <img
+                <a target="_blank" href="https://socialmedia-platform-masoudsaed.netlify.app/">
+                    <img
                     className="d-block w-100 slide-img"
                     src={"./images/SOC.jpg"}
                     alt="Social website"
-                />
+                    /></a>
                 <Carousel.Caption className="carousel-caption">
                     <h5>Social Platform</h5>
-                    {/* <p>Think Beyond Search: Top Channels & Emerging Trends to Grow Your Brand.</p> */}
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
-                <img
+                <a target="_blank" href="https://freedom-music.netlify.app/">
+                    <img
                     className="d-block w-100 slide-img"
                     src={"./images/jam.jpg"}
                     alt="Third slide"
-                />
+                    
+                    /></a>
                 <Carousel.Caption className="carousel-caption">
                     <h5>Music PlayList</h5>
-                    {/* <p>Where Live Happens. Experience music in real-time with others.</p> */}
                 </Carousel.Caption>
             </Carousel.Item>
         </Carousel>

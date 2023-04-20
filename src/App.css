@@ -618,6 +618,13 @@ textarea {
   margin-bottom: 100px;
   margin-right: auto;
 }
+.project-link{
+  color: #99ffcc;
+  margin-bottom: 0;
+}
+.project-link:hover{
+  color: #bf4800;
+}
 
 /*-------project page Ends here--------*/
 
