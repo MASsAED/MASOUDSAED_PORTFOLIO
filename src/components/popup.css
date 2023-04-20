@@ -19,11 +19,15 @@ max-width: 640px;
 background-color: rgb(51, 102, 204);
 border-radius: 10px;
 }
+.popup-inner h5 {
+    color:aqua;
+}
 
-.popup-inner .button {
-    background-color: var(--color-051DB5);
+.popup-inner .button-popup {
+
+    background-color: #666699;
     color: white;
-    font-size: 12px;
+    font-size: 13px;
     padding: 10px 10px;
     border-radius: 15px;
     transition-duration: 0.5s;
@@ -32,9 +36,9 @@ border-radius: 10px;
             right: 16px;
 }
 
-.popup-inner .button:hover {
-    background-color: var(--color-ededed);
-    color: var(--color-131921)
+.popup-inner .button-popup:hover {
+    background-color: white;
+    color: black;
 }
 .popup-p {
     color: white;

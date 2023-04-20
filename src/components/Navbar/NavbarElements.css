@@ -1,23 +1,27 @@
 .navbar {
-background-color: blue;
+background-color: rgba(44, 44, 206, 0.54);
+margin: 2px;
+border-radius: 5px;
+padding: 0;
 }
 .button-navbar {
-margin-left: 120px;
-/* margin-top: 9px; */
+margin: 20px auto;
+padding: 20px;
+font-size: 12px;
+height: 35px;
 }
 .logo {
 margin-left: 27px;
 }
+
+
 .nav-link {
             color: white;
             font-weight: 600;
             margin-left: 30px;
             
         }
-        .nav {
-            margin-left: 80px;
-           
-        }
+
 
 @media only screen and (max-width: 768px ){
 
@@ -25,14 +29,11 @@ margin-left: 27px;
         color: white;
         font-weight: 500;
         width: 50%;
-        border: 1px solid darkblue;
+        border: 1px solid white;
         border-radius: 10%;
-    }
-    .nav-link .button-navbar{
-        text-align: center;
-        color: red;
-        width: 185px;
-        margin-left: 0px;
+        margin: 5px;
+        padding: 2px 2px;
+                            box-shadow: 0 15px 35px rgba(50, 50, 93, .1), 0 5px 15px rgba(0, 0, 0, .07);
     }
 
     .nav {
@@ -44,8 +45,14 @@ margin-left: 27px;
         flex-wrap: wrap;
         text-align: center;
         margin-left: auto;
-
     }
+        .navbar-toggler-icon {
+        width: 1.2rem;
+        padding-left: 10px;
+        
+    }
+
+
 }
 
 
