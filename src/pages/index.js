@@ -49,11 +49,7 @@ const Home = () => {
             </div>
             <div className="col-md">
               <div className="main-home-wrapper-2">
-                <div>
-
-                </div>
-                
-                <img src="./images/MASOUDSAED-2.jpg" alt="masoud saed" className="img-masoud" />
+                <img src="./images/mas.jpg" alt="masoud saed" className="img-masoud" />
               
               </div>
               <div className="home-popup main-home-wrapper-2 mt-3">

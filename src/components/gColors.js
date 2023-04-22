@@ -12,9 +12,9 @@ export function ColorChangingElement() {
     }, []);
 
     return <div id="my-element">
-        <h1 >Hi There,</h1>
-        <h1>I'm Masoud Saed</h1>
-        <h4>I Am into Web Development!</h4>
+        <h1 className="greeting-homepage">Hi There,</h1>
+        <h1 className="greeting-homepage">I'm Masoud Saed</h1>
+        <h4 className="greeting-homepage">I Am into Web Development!</h4>
     </div>;
 }
  

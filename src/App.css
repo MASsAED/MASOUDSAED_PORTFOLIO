@@ -163,8 +163,8 @@ position: relative;
 }
 
 .main-home-wrapper-2 .img-masoud {
-  width: 200px;
-  height: 240px;
+  width: 220px;
+  height: 220px;
   border: 1px solid var(--color-041375);
   border-radius: 50%;
   /* object-fit: cover; */
@@ -176,12 +176,9 @@ position: relative;
   /* filter: sepia(100%); */
 
 }
-/* .main-home-wrapper-2 .img-masoud:hover{
-        transform: rotate(25deg);
-        width: 220px;
-          height: 260px;
-
-} */
+.greeting-homepage{
+    -webkit-text-stroke: 1px var(--color-131921);
+}
 
 .footer .contact {
   display: flex;
